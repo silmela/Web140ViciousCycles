@@ -1,0 +1,174 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #563727;
+    color: #e8dfe0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Subscribe Button*/
+
+.button_1 {
+    height: 38px;
+    background: #7A431D;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #e8dfe0;
+}
+
+
+/* Header*/
+
+header {
+    background-color: #372C2E;
+    color: #e8dfe0;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #DE9E48 3px solid;
+}
+
+header a {
+    color: #e8dfe0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    letter-spacing: 1px;
+    
+}
+
+header #branding {
+    float: left;
+    text-align: center;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+header a:hover {
+    color: #DE9E48;
+    font-weight: bold;
+}
+
+/* Footer*/
+
+footer {
+    color: #e8dfe0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer .fa {
+    padding: 6px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0%;
+    margin-inline: 10px;
+}
+
+footer a:link {
+
+    color:#e8dfe0;
+    font-size: 13px;
+}
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+
+/* Showcase*/
+
+#showcase {
+    min-height: 400px;
+    
+}
+
+#showcase h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#showcase .container img.imgFlo {
+
+float: left;
+margin-right: 2%;
+
+}
+
+
+/* Newsletter*/
+
+#newsletter {
+    padding: 15px;
+    color: #e8dfe0;
+    background-color: #372C2E;
+    
+}
+
+#newsletter h1 {
+    float: left;
+    text-align: left;
+}
+
+#newletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
