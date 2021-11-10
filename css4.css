@@ -23,13 +23,12 @@ ul {
 
 .button_1 {
     height: 38px;
-    background: #7A431D;
+    background: #DE9E48;
     border: none;
     padding-left: 20px;
     padding-right: 20px;
     color: #e8dfe0;
 }
-
 
 /* Header*/
 
@@ -40,6 +39,15 @@ header {
     min-height: 70px;
     border-bottom: #DE9E48 3px solid;
 }
+
+/*Logo*/
+header #branding {
+    float:left;
+    max-width: 100%;
+    height: auto;
+    
+}
+
 
 header a {
     color: #e8dfe0;
@@ -59,11 +67,6 @@ header li {
     padding: 0 20px 0 20px;
     letter-spacing: 1px;
     
-}
-
-header #branding {
-    float: left;
-    text-align: center;
 }
 
 header #branding h1 {
@@ -88,7 +91,12 @@ footer {
     text-decoration: none;
     text-align: center;
     font-size: 12px;
+   background-color:#372C2E;
+   margin-top: 10px;
+   border-top:#DE9E48 3px solid;
+   padding-top: 10px;
 }
+
 
 footer .fa {
     padding: 6px;
@@ -97,14 +105,24 @@ footer .fa {
     text-align: center;
     text-decoration: none;
     border-radius: 0%;
-    margin-inline: 10px;
+   
 }
 
 footer a:link {
 
     color:#e8dfe0;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-decoration: none;
+    
 }
+
+/* targeting all links in footer not just usa cycling
+footer a:hover {
+
+    color: #DE9E48;
+}
+*/
 
 /* Facebook */
 
@@ -133,24 +151,64 @@ footer a:link {
     font-size: 30px;
     margin-bottom: 10px;
     letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 #showcase p {
     font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 1.4;
 }
+
 
 #showcase .container img.imgFlo {
 
 float: left;
 margin-right: 2%;
+max-width: 100%;
 
 }
 
+#showcase .container img.ebike {
 
+    float: right;
+    max-width: 100%;
+}
+
+#showcase p#ebikes {
+
+    float: left;
+    margin-top: 5%;
+    color: chartreuse;
+    word-wrap: break-word;
+}
+
+
+
+
+/*
+#showcase button {
+
+    background-color:#DE9E48;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: right;
+    font-size: 18px;
+    margin: 10px 2px;
+    cursor: pointer;
+    
+}
+*/
 /* Newsletter*/
 
 #newsletter {
-    padding: 15px;
+    padding: 5px;
     color: #e8dfe0;
     background-color: #372C2E;
     
@@ -158,17 +216,22 @@ margin-right: 2%;
 
 #newsletter h1 {
     float: left;
-    text-align: left;
+    margin-right: 20px;
+    
 }
 
+
 #newletter form {
-    float: right;
-    margin-top: 15px;
+    float: center;
+    margin-top: 50px;
+    margin-left: 25px;
+ 
 }
 
 #newsletter input[type="email"] {
-    padding: 4px;
+    padding: 5px;
     height: 25px;
     width: 250px;
+    margin-top: 18px;
 }
 
