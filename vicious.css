@@ -1,0 +1,220 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #563727;
+    color: #e8dfe0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Subscribe Button*/
+
+.button_1 {
+    height: 38px;
+    background: #DE9E48;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #e8dfe0;
+}
+
+/* Header*/
+
+header {
+    background-color: #372C2E;
+    color: #e8dfe0;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #DE9E48 3px solid;
+}
+
+/*Logo*/
+
+header #branding {
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+header a {
+    color: #e8dfe0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    letter-spacing: 1px;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+header a:hover {
+    color: #DE9E48;
+    font-weight: bold;
+}
+
+/* Showcase*/
+
+#showcase {
+    min-height: 400px;
+}
+
+#showcase h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#rbikes {
+    font-size: 20px;
+    float: right;
+    margin-top: 30px;
+    line-height: 1.4;
+    color: chartreuse;
+}
+
+#showcase .container img.imgFlo {
+    float: left;
+    margin-right: 2%;
+    max-width: 100%;
+}
+
+#ebikes {
+    font-size: 20px;
+    float: left;
+    margin-top: 5%;
+    color: #55ACEE;
+    clear: both;
+}
+
+#showcase .container img.ebike {
+    float: right;
+    max-width: 100%;
+    clear: both;
+}
+
+/*
+#showcase button {
+
+    background-color:#DE9E48;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: right;
+    font-size: 18px;
+    margin: 10px 2px;
+    cursor: pointer;
+    
+}
+*/
+
+/* Newsletter*/
+
+#newsletter {
+    padding: 5px;
+    color: #e8dfe0;
+    background-color: #372C2E;
+}
+
+#newsletter h1 {
+    float: left;
+    margin-right: 20px;
+}
+
+#newletter form {
+    float: center;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+#newsletter input[type="email"] {
+    padding: 5px;
+    height: 25px;
+    width: 250px;
+    margin-top: 18px;
+}
+
+/* Footer*/
+
+footer {
+    color: #e8dfe0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    background-color: #372C2E;
+    margin-top: 10px;
+    border-top: #DE9E48 3px solid;
+    padding-top: 10px;
+}
+
+footer .fa {
+    padding: 6px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0%;
+}
+
+footer a:link {
+    color: #e8dfe0;
+    font-size: 14px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/* targeting all links in footer not just usa cycling
+footer a:hover {
+
+    color: #DE9E48;
+}
+*/
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
