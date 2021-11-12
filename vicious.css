@@ -125,7 +125,7 @@ header a:hover {
     clear: both;
 }
 
-/*
+
 #showcase button {
 
     background-color:#DE9E48;
@@ -141,14 +141,15 @@ header a:hover {
     cursor: pointer;
     
 }
-*/
+
 
 /* Newsletter*/
 
 #newsletter {
     padding: 5px;
-    color: #e8dfe0;
-    background-color: #372C2E;
+    color: #FFFFFF;
+    background-color: #563727;
+  
 }
 
 #newsletter h1 {
@@ -156,9 +157,9 @@ header a:hover {
     margin-right: 20px;
 }
 
-#newletter form {
-    float: center;
-    margin-top: 50px;
+#newsletter form {
+    margin-left: 25px;
+    margin-left: 25px;
     margin-left: 25px;
 }
 
@@ -177,7 +178,7 @@ footer {
     text-align: center;
     font-size: 12px;
     background-color: #372C2E;
-    margin-top: 10px;
+    margin-top: none;
     border-top: #DE9E48 3px solid;
     padding-top: 10px;
 }
